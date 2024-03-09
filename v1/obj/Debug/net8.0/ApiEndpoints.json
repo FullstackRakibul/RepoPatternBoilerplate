@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "v1.Controllers.HomeController",
+    "Method": "Index",
+    "RelativePath": "Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
