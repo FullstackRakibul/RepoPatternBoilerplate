@@ -1,8 +1,8 @@
 [
   {
     "ContainingType": "v1.Controllers.HomeController",
-    "Method": "Index",
-    "RelativePath": "Test",
+    "Method": "GetPublicData",
+    "RelativePath": "api/Home/get-public-data",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
