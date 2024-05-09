@@ -19,7 +19,6 @@ namespace v1.Repository
             _indigoAppDbContext = indigoAppDbContext;
         }
 
-
         public async Task<IEnumerable<PublicData>> GetPublicDataAsync()
         {
             var repoResponse = await _indigoAppDbContext.PublicData.ToListAsync();
