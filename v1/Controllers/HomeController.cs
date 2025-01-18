@@ -28,7 +28,7 @@ namespace v1.Controllers
         [Route("get-public-data" , Name ="getPublicData")]
         public async Task<IActionResult> GetPublicData()
         {
-            var responseInterface =await _publicinterface.GetPublicDataAsync();
+            dynamic responseInterface =await _publicinterface.GetPublicDataAsync();
 
             if (responseInterface == null)
             {
@@ -40,7 +40,7 @@ namespace v1.Controllers
 
             //var responseServcie = await _publicService.PublicServiceData();
 
-            return Ok(new ApiResponseDto<IEnumerable<PublicData>>
+            return Ok(new ApiResponseDto<dynamic>
             {
                 Status = true,
                 Message = "Public data retrieve successfully.",

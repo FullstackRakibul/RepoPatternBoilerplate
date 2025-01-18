@@ -19,10 +19,10 @@ namespace v1.Repository
             _indigoAppDbContext = indigoAppDbContext;
         }
 
-        public async Task<IEnumerable<PublicData>> GetPublicDataAsync()
+        public async Task<dynamic> GetPublicDataAsync()
         {
-            var repoResponse = await _indigoAppDbContext.PublicData.ToListAsync();
-            return repoResponse;
+            //var repoResponse = await _indigoAppDbContext.PublicData.ToListAsync();
+            return "API Works ...";
         }
     }
 }

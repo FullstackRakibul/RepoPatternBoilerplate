@@ -4,6 +4,6 @@ namespace v1.Repository.IRepository
 {
     public interface IPublicInterface
     {
-        Task <IEnumerable<PublicData>> GetPublicDataAsync();
+        Task <dynamic> GetPublicDataAsync();
     }
 }
